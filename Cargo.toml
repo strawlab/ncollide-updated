@@ -2,5 +2,5 @@
 members = [ "build/ncollide2d", "build/ncollide3d" ]
 
 [patch.crates-io]
-ncollide2d = { path = "./build/ncollide2d" }
-ncollide3d = { path = "./build/ncollide3d" }
+ncollide2d-updated = { path = "./build/ncollide2d" }
+ncollide3d-updated = { path = "./build/ncollide3d" }

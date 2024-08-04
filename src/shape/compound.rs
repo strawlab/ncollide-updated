@@ -8,7 +8,6 @@ use crate::partitioning::{BVHImpl, BVT};
 use crate::query::{Contact, ContactKinematic, ContactPrediction, ContactPreprocessor};
 use crate::shape::{CompositeShape, FeatureId, Shape, ShapeHandle};
 use na::{self, RealField};
-use std::mem;
 
 /// A compound shape with an aabb bounding volume.
 ///
@@ -41,7 +40,7 @@ impl<N: RealField + Copy> Compound<N> {
             }
         }
 
-        let nbits = mem::size_of::<usize>() * 8 - leaves.len().leading_zeros() as usize;
+        let nbits = size_of::<usize>() * 8 - leaves.len().leading_zeros() as usize;
         let bvt = BVT::new_balanced(leaves);
 
         Compound {

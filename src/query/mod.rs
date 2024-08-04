@@ -32,7 +32,12 @@ pub use self::error::*;
 pub use self::nonlinear_time_of_impact::*;
 pub use self::point::*;
 pub use self::proximity::*;
-pub use self::ray::*;
+#[cfg(feature = "dim3")]
+pub use self::ray::ray_intersection_with_triangle;
+pub use self::ray::{
+    line_toi_with_plane, ray_intersection_with_support_map_with_params, ray_toi_with_ball,
+    ray_toi_with_plane, Ray, RayCast, RayIntersection,
+};
 pub use self::time_of_impact::*;
 pub use self::toi_dispatcher::*;
 
