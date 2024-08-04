@@ -5,7 +5,7 @@ authors = [ "Sébastien Crozet <developer@crozet.re>" ]
 
 description = "2 and 3-dimensional collision detection library in Rust. Will be superseded by the parry2d crate."
 repository = "https://github.com/strawlab/ncollide-updated"
-readme = "README.md"
+readme = "../../README.md"
 keywords = [ "collision", "geometry", "distance", "ray", "convex" ]
 license = "Apache-2.0"
 edition = "2018"
