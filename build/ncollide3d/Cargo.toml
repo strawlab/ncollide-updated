@@ -23,11 +23,6 @@ serde-serialize = [ "serde", "nalgebra/serde-serialize" ]
 # so we don't need a too large number of decimals.
 improved_fixed_point_support = [ ]
 
-[lib]
-name = "ncollide3d"
-path = "../../src/lib.rs"
-required-features = [ "dim3" ]
-
 [dependencies]
 either     = "1"
 bitflags   = "1"
