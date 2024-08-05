@@ -2,6 +2,7 @@
 //! Shape composed from the union of primitives.
 //!
 
+use core::mem::size_of;
 use crate::bounding_volume::{BoundingVolume, AABB};
 use crate::math::Isometry;
 use crate::partitioning::{BVHImpl, BVT};
