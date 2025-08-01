@@ -3,6 +3,7 @@ extern crate approx; // for relative_eq!
 extern crate nalgebra as na;
 
 use na::{Isometry2, Vector2};
+use ncollide2d_updated as ncollide2d;
 use ncollide2d::query;
 use ncollide2d::shape::{Ball, Cuboid};
 

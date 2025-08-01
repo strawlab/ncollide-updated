@@ -1,5 +1,6 @@
 //extern crate nalgebra as na;
 //
+//use ncollide2d_updated as ncollide2d;
 //use ncollide2d::broad_phase::BroadPhasePairFilter;
 //use ncollide2d::shape::{Ball, ShapeHandle};
 //use ncollide2d::world::{CollisionGroups, CollisionObject, CollisionWorld, GeometricQueryType};

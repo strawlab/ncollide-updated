@@ -1,4 +1,5 @@
 use nalgebra::{Isometry2, Point2, Vector2};
+use ncollide2d_updated as ncollide2d;
 use ncollide2d::query;
 use ncollide2d::shape::{Ball, Cuboid};
 #[cfg(feature = "improved_fixed_point_support")]

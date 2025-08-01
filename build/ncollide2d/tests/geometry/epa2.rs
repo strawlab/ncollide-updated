@@ -1,4 +1,5 @@
 use na::{self, Isometry2, Vector2};
+use ncollide2d_updated as ncollide2d;
 use ncollide2d::narrow_phase::{ContactDispatcher, DefaultContactDispatcher};
 use ncollide2d::query::{self, ContactPrediction};
 use ncollide2d::shape::Cuboid;

@@ -2,6 +2,7 @@ extern crate nalgebra as na;
 extern crate num_traits as num;
 
 use na::Point2;
+use ncollide2d_updated as ncollide2d;
 use ncollide2d::shape::ConvexPolygon;
 
 fn main() {

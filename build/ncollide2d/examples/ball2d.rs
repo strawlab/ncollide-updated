@@ -1,3 +1,4 @@
+use ncollide2d_updated as ncollide2d;
 use ncollide2d::shape::Ball;
 
 fn main() {

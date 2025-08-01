@@ -1,4 +1,5 @@
 use na::{Isometry2, Vector2};
+use ncollide2d_updated as ncollide2d;
 use ncollide2d::pipeline::{CollisionGroups, CollisionWorld, GeometricQueryType};
 use ncollide2d::shape::{Ball, ShapeHandle};
 

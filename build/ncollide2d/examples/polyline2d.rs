@@ -1,6 +1,7 @@
 extern crate nalgebra as na;
 
 use na::Point2;
+use ncollide2d_updated as ncollide2d;
 use ncollide2d::shape::Polyline;
 
 fn main() {

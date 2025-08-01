@@ -1,6 +1,7 @@
 extern crate nalgebra as na;
 
 use na::{Isometry2, Point2, Vector2};
+use ncollide2d_updated as ncollide2d;
 use ncollide2d::pipeline::{CollisionGroups, GeometricQueryType};
 use ncollide2d::query::Ray;
 use ncollide2d::shape::{Ball, Cuboid, ShapeHandle};
