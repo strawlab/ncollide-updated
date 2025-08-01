@@ -8,7 +8,7 @@ use crate::shape::{Shape, ShapeHandle};
 use simba::scalar::RealField;
 
 bitflags! {
-    #[derive(Default)]
+    #[derive(Default, Clone, Copy)]
     /// Flags indicating what changed in a collision object since the last collision world update.
     pub struct CollisionObjectUpdateFlags: u8 {
         /// Indicate that the collision object's position changed.

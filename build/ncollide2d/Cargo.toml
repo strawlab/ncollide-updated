@@ -28,7 +28,7 @@ required-features = [ "dim2" ]
 
 [dependencies]
 either          = "1"
-bitflags        = "1"
+bitflags        = "2"
 downcast-rs     = "2"
 num-traits      = { version = "0.2", default-features = false }
 smallvec        = "1"

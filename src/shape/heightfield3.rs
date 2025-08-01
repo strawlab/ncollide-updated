@@ -7,7 +7,7 @@ use crate::shape::{FeatureId, Triangle};
 
 bitflags! {
     #[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
-    #[derive(Default)]
+    #[derive(Default, Clone, Copy, Debug, PartialEq)]
     /// The status of the cell of an heightfield.
     pub struct HeightFieldCellStatus: u8 {
         /// If this bit is set, the concerned heightfield cell is subdivided using a Z pattern.
@@ -17,7 +17,7 @@ bitflags! {
         /// If this bit is set, the rightmost triangle of the concerned heightfield cell is removed.
         const RIGHT_TRIANGLE_REMOVED = 0b00000100;
         /// If this bit is set, both triangles of the concerned heightfield cell are removed.
-        const CELL_REMOVED = Self::LEFT_TRIANGLE_REMOVED.bits | Self::RIGHT_TRIANGLE_REMOVED.bits;
+        const CELL_REMOVED = Self::LEFT_TRIANGLE_REMOVED.bits() | Self::RIGHT_TRIANGLE_REMOVED.bits();
     }
 }
 
