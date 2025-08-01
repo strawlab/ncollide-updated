@@ -1,6 +1,7 @@
 extern crate nalgebra as na;
 
 use na::Vector3;
+use ncollide3d_updated as ncollide3d;
 use ncollide3d::shape::Plane;
 
 fn main() {

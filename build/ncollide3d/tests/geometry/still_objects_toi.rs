@@ -1,4 +1,5 @@
 use na::{self, Isometry3, Vector3};
+use ncollide3d_updated as ncollide3d;
 use ncollide3d::query::{time_of_impact, DefaultTOIDispatcher};
 use ncollide3d::shape::Cuboid;
 

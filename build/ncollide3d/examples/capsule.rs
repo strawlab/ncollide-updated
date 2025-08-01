@@ -1,3 +1,4 @@
+use ncollide3d_updated as ncollide3d;
 use ncollide3d::shape::Capsule;
 
 fn main() {

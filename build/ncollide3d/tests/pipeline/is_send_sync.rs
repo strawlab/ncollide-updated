@@ -1,4 +1,5 @@
 // NOTE: the following tests will compile iff. the tested structs are `Send + Sync + 'static`.
+use ncollide3d_updated as ncollide3d;
 use ncollide3d::world::CollisionWorld;
 
 fn is_send_sync<T: Send + Sync + 'static>(_: T) -> bool {

@@ -1,4 +1,5 @@
 use nalgebra::{zero, Isometry3, Translation, Vector3};
+use ncollide3d_updated as ncollide3d;
 use ncollide3d::{
     pipeline::{CollisionGroups, CollisionWorld, GeometricQueryType},
     shape::{Cuboid, ShapeHandle},

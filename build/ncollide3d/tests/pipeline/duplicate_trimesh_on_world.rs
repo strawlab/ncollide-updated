@@ -1,4 +1,5 @@
 use na::{zero, Isometry3, Point3, Vector3};
+use ncollide3d_updated as ncollide3d;
 use ncollide3d::pipeline::{CollisionGroups, CollisionWorld, GeometricQueryType};
 use ncollide3d::shape::*;
 

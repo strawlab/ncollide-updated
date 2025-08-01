@@ -1,6 +1,7 @@
 // Issue #123
 
 use na::{self, Isometry3, Point3, Vector3};
+use ncollide3d_updated as ncollide3d;
 use ncollide3d::query;
 use ncollide3d::shape::{Ball, Triangle};
 

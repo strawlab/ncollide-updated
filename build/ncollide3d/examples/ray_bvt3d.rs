@@ -1,6 +1,7 @@
 extern crate nalgebra as na;
 
 use na::{Isometry3, Point3, Vector3};
+use ncollide3d_updated as ncollide3d;
 use ncollide3d::bounding_volume::{self, BoundingSphere, HasBoundingVolume};
 use ncollide3d::partitioning::{BVH, BVT};
 use ncollide3d::query::{visitors::RayInterferencesCollector, Ray, RayCast};

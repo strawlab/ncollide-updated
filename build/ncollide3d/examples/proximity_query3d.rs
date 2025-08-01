@@ -1,6 +1,7 @@
 extern crate nalgebra as na;
 
 use na::{Isometry3, Vector3};
+use ncollide3d_updated as ncollide3d;
 use ncollide3d::query::{self, Proximity};
 use ncollide3d::shape::{Ball, Cuboid};
 

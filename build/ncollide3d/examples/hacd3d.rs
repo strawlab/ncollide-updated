@@ -2,6 +2,7 @@
 extern crate nalgebra as na;
 
 use na::Point3;
+use ncollide3d_updated as ncollide3d;
 use ncollide3d::procedural;
 use ncollide3d::procedural::path::{NoCap, PolylinePath, PolylinePattern, StrokePattern};
 use ncollide3d::transformation;
