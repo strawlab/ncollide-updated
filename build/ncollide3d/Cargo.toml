@@ -17,7 +17,7 @@ maintenance = { status = "passively-maintained" }
 default = [ "dim3" ]
 dim2    = [ ]
 dim3    = [ ]
-serde-serialize = [ "serde", "nalgebra/serde-serialize" ]
+serde-serialize = [ "serde", "nalgebra/serde-serialize", "bitflags/serde" ]
 
 # Improve numerical stability when working with fixed-point numbers
 # so we don't need a too large number of decimals.
